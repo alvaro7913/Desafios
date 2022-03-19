@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes por Chile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- <body class="bg-dark w-100 text-white"> -->
+<body style="background-color: black; text-white;">
+
+<!-- inicio de Navbar transparente -->
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mr-3">
+      <a class="navbar-brand" href="#"><img height= 30rem src="assets/img/viajes.svg" alt=""> Viajes Chile</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#¿Quiénes Somos?">¿Quiénes Somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Destacados">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<!-- Fin de Navbar transparente -->
+
+    <!-- Inicio de Carrusel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </button>
+    </div>
+    <!-- fin de carrusel -->
+
+
+
+    <!-- inicio de tarjetas descriptivas -->
+    <main class="container py-4">
+        <h1 class="text-center pt-4 pb-2" id="¿Quienes Somos?">¿Quiénes Somos?</h1>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-md-4 text-center">
+                <p class="bg-primary w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2 -7h-4l-2 2h-3l2 -4l-2 -4h3l2 2h4l-2 -7h3z" />
+                    </svg>
+                </p>
+                
+                <p class="text-aline: left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit tempore esse? Ipsa temporibus harum, soluta obcaecati earum voluptates alias commodi dignissimos ea nemo incidunt animi vero numquam explicabo quos?
+                </p>
+
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit tempore esse? Ipsa temporibus harum, soluta obcaecati earum voluptates alias commodi dignissimos ea nemo incidunt animi vero numquam explicabo quos?
+                </p>
+
+                <p class="bg-primary w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-triangle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+                    </svg>
+                </p>
+                
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <p class="bg-primary w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-route" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="19" r="2" />
+                        <circle cx="18" cy="5" r="2" />
+                        <path d="M12 19h4.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h3.5" />
+                      </svg>
+                </p>
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fugit tempore esse? Ipsa temporibus harum, soluta obcaecati earum voluptates alias commodi dignissimos ea nemo incidunt animi vero numquam explicabo quos?
+                </p>
+
+            </div>
+            
+        </div>
+    </main>
+    <!-- fin de tarjetas descriptivas-->
+
+
+    <!-- inicio de tarjetas con foto -->
+    <section class="container">        
+    <h1 class="text-center pt-4 pb-4" id="Destacados">Destacados</h1>
+    <hr>
+        <div class="card-deck py-4">
+            <div class="card">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-white bg-primary">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae iure doloribus nostrum, reprehenderit aperiam quibusdam atque voluptates et quasi reiciendis minus commodi! Laborum harum est laboriosam sit, facilis sapiente.</p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-white bg-primary">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae iure doloribus nostrum, reprehenderit aperiam quibusdam atque voluptates et quasi reiciendis minus commodi! Laborum harum est laboriosam sit, facilis sapiente.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-white bg-primary">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae iure doloribus nostrum, reprehenderit aperiam quibusdam atque voluptates et quasi reiciendis minus commodi! Laborum harum est laboriosam sit, facilis sapiente.</p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-white bg-primary">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae iure doloribus nostrum, reprehenderit aperiam quibusdam atque voluptates et quasi reiciendis minus commodi! Laborum harum est laboriosam sit, facilis sapiente.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin de tarjetas con foto -->
+    
+
+
+    <!-- Inicio de formulario de contacto -->
+    <form class="container py-4">
+        <h1 class="text-center py-3" id="Contacto">Contacto</h1>
+        <hr>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Nombre</label>
+          <input class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Asunto</label>
+          <input class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      <button type="button" class="btn btn-primary">Enviar</button>
+
+      </form>
+    
+    <!-- Fin de formulario de contacto -->
+
+    <!-- Inicio de Footer -->
+    <footer class="footer bg-primary w-100 text-white">
+        <main class="container">
+            <d1 class="row">
+                <dt class="col-8 pt-4 pb-4 border: 0">
+                    <h3>VIAJES CHILE</h3>
+
+                </dt>
+                
+                <dd class="col-4 pt-4 pb-4">
+                <!-- <div class="col-12 col-md-6 text-center">
+                    <h3>VIAJES CHILE</h3> -->
+
+                    <!-- Inicio de iconos de footer -->
+                        <!-- Github -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                        </svg>
+
+                        <!-- linkedin -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <line x1="8" y1="11" x2="8" y2="16" />
+                        <line x1="8" y1="8" x2="8" y2="8.01" />
+                        <line x1="12" y1="16" x2="12" y2="11" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                        </svg>
+
+                        <!-- Twitter -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                        </svg>
+
+                        <!-- Facebook -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                        </svg>
+                    <!-- Fin de iconos de footer -->
+                </dd>
+
+            </d1>
+        </main>
+    </footer>
+    <!-- Fin de Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

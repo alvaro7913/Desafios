@@ -1,0 +1,13 @@
+.header {
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+  .header .navbar {
+    background-color: transparent !important;
+  }
