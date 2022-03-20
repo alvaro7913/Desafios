@@ -3,6 +3,12 @@
     min-height: 100vh;
   }
 
+  .linea {
+    list-style: none; color: grey;
+
+  }
+
+
 html {
     scroll-behavior: smooth;
     margin: 0;
